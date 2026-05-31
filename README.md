@@ -34,7 +34,7 @@ All four implementations operate on identical model weights and encrypted test s
 **scikit-learn loader:** `sklearn.datasets.load_iris()`  
 **Citation:** Dua, D. and Graff, C. (2019). UCI Machine Learning Repository. Irvine, CA: University of California, School of Information and Computer Science.
 
-The Iris dataset contains 150 samples with 4 continuous features (sepal length, sepal width, petal length, petal width in cm) across 3 class labels. For this study the task is binarised: **Iris setosa (class 0) receives label 1; all other classes receive label 0**.
+The Iris dataset contains 150 samples with 4 continuous features (sepal length, sepal width, petal length, petal width in cm) across 3 class labels. For this study the task is binarised: **Iris setosa received label 1; all other samples received label 0**.
 
 No external data files are required — the dataset is loaded automatically at runtime via `sklearn.datasets.load_iris()`.
 
